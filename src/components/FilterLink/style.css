@@ -1,0 +1,16 @@
+.link {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &_state_active {
+        color: blue;
+
+        &:hover {
+            cursor: default;
+        }
+    }
+}
